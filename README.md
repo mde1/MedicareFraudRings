@@ -1,17 +1,17 @@
 # Medicare Fraud Rings
 Databases used for a research project testing the effect of adding OSINT relationships to medicare claims on community detection of fraud rings. There are 4 databases
 
-* Base - Vanilla Medicare claims import (2019-2021 claims Parts B and D)
+* Base - Vanilla Medicare claims import (2019-2021 claims Parts B and D) 11.5GB
 https://1drv.ms/u/s!ApppGSjeYcTxifMJs9aB0HXa9z9K7w?e=s1u82G
   
-* Base_KNN - Medicare claims import (2019-2021 claims Parts B and D) with FastRP embeddings and KNN-derived relationships
+* Base_KNN - Medicare claims import (2019-2021 claims Parts B and D) with FastRP embeddings and KNN-derived relationships 13GB
 https://1drv.ms/u/s!ApppGSjeYcTxifMIxpn4mCoAdUv5Dw?e=b2XHwB
   
-* OSINT - Medicare claims import (2019-2021 claims Parts B and D) with confirmed business relationships added between 100 labeled nodes
+* OSINT - Medicare claims import (2019-2021 claims Parts B and D) with confirmed business relationships added between 100 labeled nodes 11.7GB
 https://1drv.ms/u/s!ApppGSjeYcTxifJ9WTEdgeP7_MXfcw?e=bmajWd
 
 * OSINT_KNN - Medicare claims import (2019-2021 claims Parts B and D) with both OSINT-derived and KNN-derived edges added
-https://1drv.ms/u/s!ApppGSjeYcTxifJ-aNyo0oECjQ8cTg?e=dZkCed
+https://1drv.ms/u/s!ApppGSjeYcTxifJ-aNyo0oECjQ8cTg?e=dZkCed 15GB
 
 ![image](https://github.com/user-attachments/assets/898620c3-9a45-4341-87b5-79bc17557410)
 
